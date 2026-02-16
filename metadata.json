@@ -1,0 +1,4 @@
+{
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "name": "OmniNexus AI"
+}
