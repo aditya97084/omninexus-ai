@@ -1,3 +1,3 @@
 export enum AppView { LANDING = 'LANDING', EXPLORER = 'EXPLORER', CREATE = 'CREATE', TOOL_EXECUTION = 'TOOL_EXECUTION', DASHBOARD = 'DASHBOARD', PRICING = 'PRICING', ADMIN_PANEL = 'ADMIN_PANEL', ADMIN_LOGIN = 'ADMIN_LOGIN' }
-export interface Tool { id: string; name: string; description: string; category: string; icon: string; gradient: string; author: string; usageCount: number; epc?: number; isUserCreated?: boolean; status?: string; }
+export interface Tool { id: string; name: string; description: string; category: string; icon: string; gradient: string; author: string; usageCount: number; epc?: number; }
 export interface GlobalStats { totalUsers: number; activeNodes: number; totalPlatformRevenue: number; totalRuns: number; serverStatus: string; }
